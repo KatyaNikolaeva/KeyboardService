@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KeyboardService"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
 
   spec.summary      = "Service for convenient work with keyboard."
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/KatyaNikolaeva/KeyboardService.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/KatyaNikolaeva/KeyboardService.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "KeyboardService/Classes/**/*.{h,m,swift}"
+  spec.source_files  = "Classes/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
