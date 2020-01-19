@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/KatyaNikolaeva/KeyboardService.git", :commit => "master" }
+  spec.source       = { :git => "https://github.com/KatyaNikolaeva/KeyboardService.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
