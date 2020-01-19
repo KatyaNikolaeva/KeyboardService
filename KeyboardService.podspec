@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "KeyboardSevice"
-  spec.version      = "0.0.1"
+  spec.name         = "KeyboardService"
+  spec.version      = "1.0.0"
 
   spec.summary      = "Service for convenient work with keyboard."
 
@@ -25,10 +25,9 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "Convenient and simple service for working with the appearance and hiding of the keyboard on any UIViewController."
 
-  spec.homepage     = "http://EXAMPLE/KeyboardSevice"
+  spec.homepage     = "https://github.com/KatyaNikolaeva/KeyboardService"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/KeyboardSevice.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/KatyaNikolaeva/KeyboardSevice.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
